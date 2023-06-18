@@ -12,7 +12,7 @@ here `$PWD/demos` is a folder on host PC to save video with result
 ```
 docker run --rm --runtime=nvidia -v $PWD/demos:/demos zvebabi/tracking_example /app/runApp.sh N
 ```
-where `N` is an amount of last poses of object, default 100
+where `N` is a length of the object paths in pixels on original image, default 100
 
 ### Build container
 - Clone this repo, let's call repo dir as ${REPO_ROOT}

@@ -3,7 +3,7 @@ set -euo pipefail
 
 if [ $# -eq 0 ]
   then
-    echo "Usage: $0 tracking_history (last N position of object to draw on image)"
+    echo "Usage: $0 tracking_history (length of the object path in pixels)"
     exit
 fi
 
